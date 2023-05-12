@@ -1,0 +1,9 @@
+int[] myList;
+myList = new int[10];
+// Sometime later you want to assign a new array to myList
+myList = new int[20];
+
+/*
+No, it does not resize the array instead it creates a new object(integer array of
+size 20) and assign the pointer to the reference variable myList 
+*/
